@@ -13,10 +13,10 @@
 **CK_day_of_mil_pos**: *day_of_mil* must be greater than zero.
 
 ## Index
-```PGSQL
-CREATE INDEX IX_pit ON pits USING B-TREE (
-  millenium,
-  day_of_mil,
-  time
+```SQL
+CREATE INDEX "IX_pits" ON "pits" USING B-TREE (
+  "millenium",
+  "day_of_mil",
+  "time"
 )
 ```
