@@ -1,4 +1,4 @@
-# Technical specifications: events table
+# Technical specifications: pits table
 
 PK|Name|  Type  |NULL|   Description
 --|----|--------|----|-----------------------
